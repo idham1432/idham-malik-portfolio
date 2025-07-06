@@ -1,0 +1,51 @@
+/* Light mode styles */
+body.light-mode {
+  background: #f0f0f0;
+  color: #000;
+}
+
+body.light-mode .navbar {
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+body.light-mode #sidemenu li a {
+  color: #000;
+}
+
+body.light-mode #sidemenu li a:hover {
+  color: #007BFF;
+}
+
+body.light-mode .theme-icon {
+  color: #000;
+}
+
+body.light-mode .header-text {
+  color: #000;
+}
+body.light-mode .social-icons a svg {
+  fill: #000;
+  transition: transform 0.3s, color 0.3s;
+}
+
+/* history */
+body.light-mode .container i {
+  color: #fff;
+}
+body.light-mode .timeline::after {
+  background: rgba(0,0,0,0.1);
+}
+
+/* about */
+body.light-mode #about,
+body.light-mode #history,
+body.light-mode #project,
+body.light-mode #contact {
+  background: #f0f0f0;
+}
+
+/* project */
+body.light-mode .project-link a {
+  color: #080808;
+}

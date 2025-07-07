@@ -17,7 +17,8 @@ body.light-mode #sidemenu li a:hover {
   color: #007BFF;
 }
 
-body.light-mode .theme-icon {
+body.light-mode .theme-icon,
+body.light-mode .menu-icon {
   color: #000;
 }
 

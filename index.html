@@ -16,7 +16,6 @@
 <body>
   <nav class="navbar">
     <div class="nav-content">
-      <!-- <i class="fa-solid fa-bars hamburger-icon"></i> -->
       <i class="fa-solid fa-sun theme-icon" id="themeToggle"></i>
       <ul id="sidemenu">
         <!-- <li><a href="#header">Home</a></li> -->
@@ -25,8 +24,23 @@
         <li><a href="#project">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <i class="fa-solid fa-bars menu-icon" onclick="toggleSidebar()"></i>
     </div>
   </nav>
+
+  <!-- Overlay -->
+  <div id="overlay" class="overlay" onclick="closeSidebar()"></div>
+
+  <!-- Sidebar -->
+  <div id="sidebar" class="sidebar" onclick="closeSidebar()">
+    <i class="fa-solid fa-xmark" onclick="closeSidebar()"></i>
+    <ul>
+      <li><a href="#about" onclick="closeSidebar()">Expertise</a></li>
+      <li><a href="#history" onclick="closeSidebar()">History</a></li>
+      <li><a href="#project" onclick="closeSidebar()">Projects</a></li>
+      <li><a href="#contact" onclick="closeSidebar()">Contact</a></li>
+    </ul>
+  </div>
 
   <!-- Fixed Background Image -->
   <div class="background-image"></div>
@@ -251,5 +265,6 @@
   </section>
 
   <script src="theme.js"></script>
+  <script src="sidebar.js"></script>
 </body>
 </html>

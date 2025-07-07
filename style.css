@@ -446,12 +446,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 600px;
+  width: 100%;
+  font-size: 18px;
 }
+
 form {
   display: grid;
   gap: 20px;
   color: #f0f0f0;
+}
+form p {
+  font-size: 16px;
 }
 input[type=text],
 input[type=email] {
@@ -459,9 +464,11 @@ input[type=email] {
   padding: 15px;
   background: none;
   border: none;
-  border-bottom: 2px solid #f0f0f0;
-  color: #fff;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #080808;
   font-size: 16px;
+  box-shadow: 4px 4px 4px -2px rgba(0, 0, 0, 0.1);
 }
 textarea {
   height: 100px;
@@ -469,9 +476,28 @@ textarea {
   font-size: 16px;
   background: none;
   border: none;
-  border-bottom: 2px solid #f0f0f0;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #080808;
+  box-shadow: 4px 4px 4px -2px rgba(0, 0, 0, 0.1);
 }
-input:invalid,
+form button {
+  padding: 15px;
+  width: 150px;
+  cursor: pointer;
+  background: #5f5fff;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #5f5fff;
+  font-size: 18px;
+  transition: all 0.15s;
+}
+form button:hover {
+  color: #5f5fff;
+  background: #f0f0f0;
+  border: 1px solid #5f5fff;
+}
+/* input:invalid,
 textarea:invalid {
   border: 2px dashed red;
 }
@@ -479,7 +505,7 @@ input:valid,
 textarea:valid {
   border: 2px dashed green;
   background: none;
-}
+} */
 
 
 

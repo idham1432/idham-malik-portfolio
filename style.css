@@ -31,6 +31,7 @@ body {
 }
 
 .menu-icon {
+  font-size: 1.2rem;
   display: none;
 }
 
@@ -57,7 +58,7 @@ body {
   color: #007BFF;
 }
 /* Show on small screens (e.g. width ≤ 768px) */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   #sidemenu {
     display: none;
   }

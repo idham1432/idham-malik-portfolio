@@ -55,7 +55,7 @@ body {
 }
 
 #sidemenu li a:hover {
-  color: #007BFF;
+  color: #5f5fff;
 }
 /* Show on small screens (e.g. width ≤ 768px) */
 @media (max-width: 600px) {
@@ -152,7 +152,7 @@ body {
 }
 
 .sidebar ul li a:hover {
-  color: #007BFF;
+  color: #0077b5;
 }
 
 
@@ -569,4 +569,15 @@ textarea:valid {
   .project-wrapper {
     grid-template-columns: 1fr;
   }
+}
+
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #0D1116;
+  font-weight: 300;
+  margin-top: 20px;
+  font-size: 14px;
 }

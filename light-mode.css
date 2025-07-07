@@ -50,3 +50,7 @@ body.light-mode #contact {
 body.light-mode .project-link a {
   color: #080808;
 }
+
+body.light-mode .copyright {
+  background-color: #f0f0f0;
+}

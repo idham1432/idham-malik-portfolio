@@ -492,11 +492,11 @@ form button {
   font-size: 18px;
   transition: all 0.15s;
 }
-form button:hover {
+/* form button:hover {
   color: #5f5fff;
   background: #f0f0f0;
   border: 1px solid #5f5fff;
-}
+} */
 /* input:invalid,
 textarea:invalid {
   border: 2px dashed red;

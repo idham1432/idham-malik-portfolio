@@ -51,7 +51,7 @@
       
       <!-- Left: Profile Image -->
       <div class="profile-image">
-        <img src="images/PXL_20240910_083656171.jpg" alt="Idham Malik">
+        <img src="images/IMG_5222.JPG" alt="Idham Malik">
       </div>
   
       <!-- Right: Info and Icons -->
@@ -83,7 +83,7 @@
         <i class="fa-solid fa-code"></i>
         <h3>Web Development</h3>
         <p>
-          I have built many web applications from scratch. I have a strong understanding of responsive design using CSS and focus on scalability and performance, writing efficient and maintainable code with JavaScript and PHP.
+          I have built many web applications from scratch. I have a strong understanding of responsive design using CSS and focus on scalability and performance, writing efficient and maintainable code.
         </p>
         <p class="tech-stack">
           Tech stack: <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
@@ -134,6 +134,16 @@
           <span>Numpy</span> <span>Seaborn</span>
         </p>
       </div>
+
+      <div class="expertise">
+        <i class="fa-solid fa-cube"></i>
+        <h3>3D Modelling</h3>
+        <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.
+        </p>
+        <p class="tech-stack">
+          Tech stack: <span>Tinkercad</span> <span>Creality</span> 
+        </p>
+      </div>
     </div>
   </section>
 
@@ -171,7 +181,7 @@
           <h2>Translator</h2>
           <small>2022 - 2024</small>
           <p>
-            As a self-employed English–Malay Translator, I researched terminology and linguistic styles, translated texts accurately into Malay, collaborated with a local publisher, and managed client relationships professionally.
+            As a self-employed English–Malay Translator, I collaborated with local publisher, researched terminology and linguistic styles, translated texts accurately into Malay, and managed client relationships professionally.
           </p>
           <span class="left-container-arrow"></span>
         </div>
@@ -185,10 +195,12 @@
       <!-- project 1 -->
       <div class="project-container">
         <div class="project-thumbnail">
-          <img src="images/mock01.png" alt="">
+          <a href="https://github.com/idham1432/coding-website" target="_blank">
+            <img src="images/mock01.png" alt="">
+          </a>
         </div>
         <h3 class="project-title">Cubie</h3>
-        <p class="project-description">Designed and developed an e-learning website with a built-in code editor using HTML, CSS, JavaScript, PHP, and SQL.</p>
+        <p class="project-description">Designed and developed my own e-learning website with a built-in code editor using HTML, CSS, JavaScript, PHP, and SQL.</p>
         <div class="project-link">
           <a href="https://idham1432.github.io/jadual-relief/" target="_blank">
             View project
@@ -198,7 +210,9 @@
       <!-- project 2 -->
       <div class="project-container">
         <div class="project-thumbnail">
-          <img src="images/mock02.png" alt="">
+          <a href="https://idham1432.github.io/jadual-relief/" target="_blank">
+            <img src="images/mock02.png" alt="">
+          </a>
         </div>
         <h3 class="project-title">ASC Substitution</h3>
         <p class="project-description">Developed an automatic school timetable scheduling web app using JavaScript that helps teachers generate error-free substitution timetables.</p>
@@ -211,7 +225,9 @@
       <!-- project 3 -->
       <div class="project-container">
         <div class="project-thumbnail">
-          <img src="images/mock03.png" alt="">
+          <a href="https://idham1432.github.io/amazon-project/" target="_blank">
+            <img src="images/mock03.png" alt="">
+          </a>
         </div>
         <h3 class="project-title">E-Commerce</h3>
         <p class="project-description">Developed the order and checkout pages of an e-commerce web app using JSON for data handling.</p>
@@ -224,12 +240,14 @@
       <!-- project 4 -->
       <div class="project-container">
         <div class="project-thumbnail">
-          <img src="images/mock04.png" alt="">
+          <a href="" target="_blank">
+            <img src="images/mock04.png" alt="">
+          </a>
         </div>
         <h3 class="project-title">YouTube Clone</h3>
         <p class="project-description">Responsive YouTube clone page that utilizes CSS Grid and Flexbox for responsive design.</p>
         <div class="project-link">
-          <a href="https://idham1432.github.io/jadual-relief/" target="_blank">
+          <a href="" target="_blank">
             View project
           </a>
         </div>
@@ -237,12 +255,14 @@
       <!-- project 5 -->
       <div class="project-container">
         <div class="project-thumbnail">
-          <img src="images/mock05.png" alt="">
+          <a href="" target="_blank">
+            <img src="images/mock05.png" alt="">
+          </a>
         </div>
         <h3 class="project-title">Identicon</h3>
         <p class="project-description">Created an identicon generator that produces visually unique, automatically generated images based on the hash of a unique identifier such as a username or email address.</p>
         <div class="project-link">
-          <a href="https://idham1432.github.io/jadual-relief/" target="_blank">
+          <a href="" target="_blank">
             View project
           </a>
         </div>
@@ -250,18 +270,21 @@
       <!-- project 6 -->
       <div class="project-container">
         <div class="project-thumbnail">
-          <img src="images/mock06.png" alt="">
+          <a href="" target="_blank">
+            <img src="images/mock06.png" alt="">
+          </a>
         </div>
         <h3 class="project-title">Morse Code</h3>
         <p class="project-description">Created a Morse code decoder using C++ and an Arduino microcontroller.</p>
         <div class="project-link">
-          <a href="https://idham1432.github.io/jadual-relief/" target="_blank">
+          <a href="" target="_blank">
             View project
           </a>
         </div>
       </div>
     </div>
   </section>
+
   <section id="contact">
     <h1 class="sub-title">Contact</h1>
     <div class="contact-container">
@@ -272,7 +295,10 @@
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send</button>
+        <div class="btn-container">
+          <button id="btn-send" type="submit">Send</button>
+          <button id="btn-resume">My Resume</button>
+        </div>
       </form>
       <div class="social-icons">
         <a href="https://github.com/idham1432" target="_blank" aria-label="GitHub">

@@ -195,6 +195,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   color: inherit;
+  gap: 15px;
 }
 
 .social-icons {
@@ -215,12 +216,12 @@ body {
 
 .header-info h1 {
   font-size: 70px;
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .header-info p {
   font-size: 26px;
-  margin-bottom: 12px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
@@ -485,12 +486,19 @@ form button {
   padding: 15px;
   width: 150px;
   cursor: pointer;
-  background: #5f5fff;
   color: #fff;
   border-radius: 10px;
-  border: 1px solid #5f5fff;
   font-size: 18px;
   transition: all 0.15s;
+  margin-right: 10px;
+}
+#btn-send {
+  background: #5f5fff;
+  border: 1px solid #5f5fff;
+}
+#btn-resume {
+  background: #f78b51;
+  border: 1px solid #f78b51;
 }
 /* form button:hover {
   color: #5f5fff;

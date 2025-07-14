@@ -500,6 +500,12 @@ form button {
   background: #f78b51;
   border: 1px solid #f78b51;
 }
+#msg{
+  color: #61b752;
+  display: block;
+  font-size: 16px;
+  height: 19.5px;
+}
 /* form button:hover {
   color: #5f5fff;
   background: #f0f0f0;

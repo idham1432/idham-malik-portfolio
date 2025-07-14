@@ -482,7 +482,8 @@ textarea {
   color: #080808;
   box-shadow: 4px 4px 4px -2px rgba(0, 0, 0, 0.1);
 }
-form button {
+form button,
+#btn-resume-sidebar {
   padding: 15px;
   width: 150px;
   cursor: pointer;
@@ -499,6 +500,11 @@ form button {
 #btn-resume {
   background: #f78b51;
   border: 1px solid #f78b51;
+}
+#btn-resume-sidebar {
+  background: #f78b51;
+  border: 1px solid #f78b51;
+  width: 100%;
 }
 #msg{
   color: #61b752;
